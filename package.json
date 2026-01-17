@@ -1,0 +1,38 @@
+{
+  "name": "deepakraog.github.io",
+  "version": "1.0.0",
+  "description": "Personal GitHub Pages site for Deepak Rao Gaikwad — Principal Software Engineer. Portfolio, blogs, and developer utilities built with Rust, Node.js, and AWS.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakraog/deepakraog.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakraog/deepakraog.github.io/issues"
+  },
+  "homepage": "https://deepakraog.dev",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
